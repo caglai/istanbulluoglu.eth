@@ -22,13 +22,13 @@ function Resume(props) {
   return (
     <Container style={{maxWidth: '900px', marginLeft: 'initial', paddingTop: '16px'}}>
       <Typography component="span" variant="h5" style={{fontWeight: 300}}>RESUME</Typography>
-      <Typography component="span" variant="caption" color="text.secondary" style={{float: 'right', lineHeight: 4}}>last updated on {moment("2021-12-05").format("yyyy-MM-DD")}</Typography>
+      <Typography component="span" variant="caption" color="text.secondary" style={{float: 'right', lineHeight: 4}}>last updated on {moment("2022-12-01").format("yyyy-MM-DD")}</Typography>
 
       <Divider style={{marginTop: '16px', marginBottom: '16px'}}/>
 
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <Typography variant="body2">You can find the PDF version <Link to="/resume/pdf">here</Link>.</Typography>
+          <Typography variant="body2">PDF version can be found <Link to="/resume/pdf">here</Link>.</Typography>
         </Grid>
 
         <Grid item xs={12}>

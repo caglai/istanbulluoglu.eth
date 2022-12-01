@@ -62,7 +62,7 @@ export default function App() {
         </Box>
 
         <Box component="footer" sx={{display: 'flex', justifyContent: 'center', marginTop: '32px', paddingBottom: '16px'}}>
-          <Typography variant="body2">Built with ❤️ and ☕ in 2021</Typography>
+          <Typography variant="body2">Built with ❤️ and ☕ since 2021</Typography>
         </Box>
       </Box>
     </Router>
